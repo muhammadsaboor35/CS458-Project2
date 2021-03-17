@@ -1,0 +1,22 @@
+{
+  "name": "unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js",
+    "ios": "APPIUM_OS=ios npm start",
+    "android": "APPIUM_OS=android npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium-flutter-finder": "0.0.13",
+    "webdriverio": "^5.15.0",
+    "bluebird": "^3.4.6",
+    "request": "^2.79.0",
+    "wd": "^1.0.0"
+  }
+}
